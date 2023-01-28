@@ -28,6 +28,10 @@ void nvs_init(){
     ESP_ERROR_CHECK(err);
 }
 
+/**
+ * @brief wifi 初始化
+ * @return {*}
+ */
 void wu_wifi_init(){
     nvs_init();
     

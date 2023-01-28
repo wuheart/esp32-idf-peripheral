@@ -1,4 +1,11 @@
-
+/*
+ * @Author “Zero” “zero_bbx@qq.com”
+ * @Date 2022-12-09 11:01:02
+ * @LastEditors “Zero” “zero_bbx@qq.com”
+ * @LastEditTime 2023-01-28 17:56:12
+ * @FilePath \esp32idf_gpio\src\hp_wu_adc.c
+ * @Description 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include "esp_log.h"
@@ -6,7 +13,6 @@
 #include "freertos/task.h"
 #include "driver/adc.h"
 #include "esp_adc_cal.h"
-
 
 //ADC Channels
 #if CONFIG_IDF_TARGET_ESP32
